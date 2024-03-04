@@ -1,21 +1,14 @@
-import { Jumbotron } from "@/components/Jumbotron";
-import { Button, Col, Container, Row } from "react-bootstrap";
-
+import { Container, Row, Col } from "react-bootstrap";
+import { CounterContainer } from "@/components/CounterContainer";
 
 export default function Home() {
   return (
-    <div>
-      <Container>
-        <Row>
-          <Col>
-            <h1>My Own React Template</h1>
-            <Button variant="primary">Click Here</Button>
-          </Col>
-        </Row>
-      </Container>
-      <Container>
-        <Jumbotron />
-      </Container>
-    </div>
+    <Container>
+      <Row>
+        <Col>
+          <CounterContainer />
+        </Col>
+      </Row>
+    </Container>
   );
 }

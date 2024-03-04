@@ -1,1 +1,11 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+
+.counter-container {
+    background-color: black;
+    color: yellow;
+  }
+  
+  .counter-col {
+    text-align: center;
+    font-size: 3rem; /* Adjust the font size as needed */
+  }
